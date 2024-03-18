@@ -27,6 +27,7 @@ class RegisterType extends AbstractType
                     'placeholder'=> 'Merci de saisir votre mot de passe',
                 ]
             ])
+// TODO : add Repeated Field
             ->add('submit', SubmitType::class,[
                 'label'=> "S'inscrire",
             ])

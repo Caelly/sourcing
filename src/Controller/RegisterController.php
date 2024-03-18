@@ -16,7 +16,7 @@ class RegisterController extends AbstractController
 
 
 
-    #[Route('/register', name: 'app_register')]
+    #[Route('/register', name: 'register')]
     public function index(Request $request, UserPasswordHasherInterface $passwordHasher, EntityManagerInterface $em): Response
     {
         $user = new User();
